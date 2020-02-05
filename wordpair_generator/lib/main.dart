@@ -6,8 +6,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        theme: ThemeData(
+            primaryColor: Colors.purple[
+                900]), //theme does not go into scaffold, it goes directly into material app
         home: Scaffold(
-      appBar: AppBar(title: Text('WordPair Generator')),
-    ));
+          appBar: AppBar(title: Text('WordPair Generator')),
+        ));
   }
 }
