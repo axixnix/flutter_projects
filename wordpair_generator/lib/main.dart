@@ -11,6 +11,10 @@ class MyApp extends StatelessWidget {
                 900]), //theme does not go into scaffold, it goes directly into material app
         home: Scaffold(
           appBar: AppBar(title: Text('WordPair Generator')),
+          body: Center(
+            //Center centers a child widget
+            child: Text('hello warudo'),
+          ),
         ));
   }
 }
