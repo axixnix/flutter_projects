@@ -21,5 +21,31 @@ class RandomWords extends StatefulWidget {
 }
 
 class RandomWordsState extends State<RandomWords> {
-  Widget build(BuildContext context) {}
+  Widget _buildList() {
+    return ListView(
+      padding: const EdgeInsets.all(8),
+      children: <Widget>[
+        Container(
+          height: 50,
+          color: Colors.amber[500],
+          child: const Center(child: Text('Entry A')),
+        ),
+        Container(
+          height: 50,
+          color: Colors.amber[500],
+          child: const Center(child: Text('Entry A')),
+        ),
+        Container(
+          height: 50,
+          color: Colors.amber[500],
+          child: const Center(child: Text('Entry A')),
+        )
+      ],
+    );
+  }
+
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(title: Text('WordPair Generator')), body: Text('hello'));
+  }
 }
