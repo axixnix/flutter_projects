@@ -33,12 +33,12 @@ class RandomWordsState extends State<RandomWords> {
         Container(
           height: 50,
           color: Colors.amber[500],
-          child: const Center(child: Text('Entry A')),
+          child: const Center(child: Text('Entry B')),
         ),
         Container(
           height: 50,
           color: Colors.amber[500],
-          child: const Center(child: Text('Entry A')),
+          child: const Center(child: Text('Entry C')),
         )
       ],
     );
